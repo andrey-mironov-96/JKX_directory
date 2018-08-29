@@ -2,6 +2,7 @@
 
     def __init__(self):
         #Улуги ЖКХ#
+	#@#
         self.__elelectricties = 1 #Электроэнергия
         self.__plumbing = 1  #Переменная воды
         self.__theRemunerationOfTheChairMan = 1 #Вознаграждение председателя дома
