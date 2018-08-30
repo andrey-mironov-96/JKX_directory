@@ -126,8 +126,7 @@
 
 a = JKX()
 
-a.check_calculation_repair_all_home(5.20,43.11, 0, 0,228.28)
-a.testPrint()
+
 
 
 
