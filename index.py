@@ -4,7 +4,7 @@ class user_data(object):
         self.tarif_area_home = 17.0 #Тариф на содержание жилья
         self.tarif_HVC_home = 13.65
         self.tarif_el_home = 3.55
-        self.tarif_repair_home = 7.0
+        self.tarif_repair_home:float = 7.0
         self.subtotal = 0.0
 
     def __input_area_home(self):
@@ -14,7 +14,7 @@ class user_data(object):
             except:
                 continue
 
-
+     #Method insert user data, area home
 
     def __input_tarif_area_home(self):
         while (True):
@@ -42,29 +42,50 @@ class user_data(object):
                 continue
 
     def __input_tarif_repair_home(self):
-        print("Тариф ремонт жилья (по умолчанию", self.tarif_repair_home, end="): ")
-        self.tarif_repair_home = input()
+        while(True):
+            try:
+                print("Тариф ремонт жилья (по умолчанию", self.tarif_repair_home, end="): ")
+                return float(input())
+            except:
+                continue
 
     def input_user_data(self):
-        #self.__input_area_home()
-       # self.__input_tarif_area_home()
-        #self.__input_HVC_home()
-        #self.__tarif_el_home()
-        #self.__input_tarif_repair_home()
-        self.__check_input_user_data()
+       return self.__check_input_user_data()
 
     def __check_input_user_data(self):
         tmp__tarif_area_home = self.__input_tarif_area_home()
         tmp_input_HVC_home = self.__input_HVC_home()
         tmp_input_tarif_el_home = self.__input_tarif_el_home()
-        tmp_input_tarif_repair_home = self.tarif_repair_home()
+        tmp_input_tarif_repair_home = self.__input_tarif_repair_home()
+        print(tmp__tarif_area_home,tmp_input_HVC_home,tmp_input_tarif_el_home,tmp_input_tarif_repair_home)
+        __home_service = []
+
+        if(tmp__tarif_area_home != self.tarif_area_home):
+            self.tarif_area_home = tmp__tarif_area_home
+        if(tmp_input_HVC_home != self.tarif_HVC_home):
+            self.tarif_HVC_home = tmp_input_HVC_home
+        if(tmp_input_tarif_el_home !=self.tarif_el_home):
+            self.tarif_el_home = tmp_input_tarif_el_home
+        if(tmp_input_tarif_repair_home !=self.tarif_repair_home):
+            self.tarif_repair_home = tmp_input_tarif_repair_home
+        __home_service.append(self.tarif_area_home)
+        __home_service.append(self.tarif_HVC_home)
+        __home_service.append(self.tarif_el_home)
+        __home_service.append(self.tarif_repair_home)
+
+        #print(__home_service)
+        return __home_service
+
 
 
 
 
 
 q1 = user_data()
-q1.input_user_data()
+a2 = list()
+a2 = q1.input_user_data()
+print(a2)
+
 
 
 
