@@ -4,8 +4,8 @@
     <list default="true" id="9aabbdb9-9a47-4c0e-b4ec-2cdc1ccf4006" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/JKX/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JKX/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculation_data_all_services.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculation_data_all_services.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
     <SUITE FILE_PATH="coverage/oop$Vector.coverage" NAME="Vector Coverage Results" MODIFIED="1535550451408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$Script1.coverage" NAME="Script1 Coverage Results" MODIFIED="1535312270172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$Calculation_data_all_services.coverage" NAME="Calculation_data_all_services Coverage Results" MODIFIED="1535649873902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/oop$index.coverage" NAME="index Coverage Results" MODIFIED="1535712549482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1535644399326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$index.coverage" NAME="index Coverage Results" MODIFIED="1535733518307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1535733506063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,45 +42,58 @@
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.56" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="9" />
-          <entry key="py" value="11366" />
+          <entry key="py" value="12079" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="11375" />
+          <entry key="Python" value="12088" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
               <folding>
-                <element signature="e#3673#3680#0" />
-                <marker date="1535712549424" expanded="false" signature="417:558" ph="..." />
-                <marker date="1535712549424" expanded="true" signature="3295:4218" ph="..." />
-                <marker date="1535712549424" expanded="false" signature="3656:3703" ph="..." />
+                <element signature="e#3665#3701#0" />
+                <element signature="e#3757#4006#0" />
+                <element signature="e#4084#4514#0" />
+                <element signature="e#4602#4831#0" />
+                <marker date="1535733505531" expanded="false" signature="417:558" ph="..." />
+                <marker date="1535733505531" expanded="false" signature="3654:3701" ph="..." />
+                <marker date="1535733505531" expanded="true" signature="4863:5162" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -101,9 +114,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Script1.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/Vector.py" />
         <option value="$PROJECT_DIR$/Calculation_data_all_services.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/index.py" />
       </list>
     </option>
@@ -126,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +151,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,8 +292,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.index" />
-        <item itemvalue="Python.Calculation_data_all_services" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.Calculation_data_all_services" />
         <item itemvalue="Python.Vector" />
         <item itemvalue="Python.Script1" />
       </list>
@@ -302,12 +315,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29836065" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29836065" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39891696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,6 +337,29 @@
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29836065" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39891696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -372,22 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="740">
           <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="e#2817#3347#0" />
-            <element signature="e#3395#3778#0" />
-            <element signature="e#3395#3589#1" />
-            <element signature="e#4614#5003#0" />
-            <element signature="e#5051#5296#0" />
-            <element signature="e#5332#5377#0" />
-            <marker date="1535648823161" expanded="true" signature="18:5407" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -395,22 +419,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1535649858989" expanded="true" signature="68:117" ph="..." />
-            <marker date="1535649858989" expanded="true" signature="110:111" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="108" column="16" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="144" column="16" lean-forward="true" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="16" />
           <folding>
-            <element signature="e#3673#3680#0" />
-            <marker date="1535712549424" expanded="false" signature="417:558" ph="..." />
-            <marker date="1535712549424" expanded="true" signature="3295:4218" ph="..." />
-            <marker date="1535712549424" expanded="false" signature="3656:3703" ph="..." />
+            <element signature="e#3665#3701#0" />
+            <element signature="e#3757#4006#0" />
+            <element signature="e#4084#4514#0" />
+            <element signature="e#4602#4831#0" />
+            <marker date="1535733505531" expanded="false" signature="417:558" ph="..." />
+            <marker date="1535733505531" expanded="false" signature="3654:3701" ph="..." />
+            <marker date="1535733505531" expanded="true" signature="4863:5162" ph="..." />
           </folding>
         </state>
       </provider>

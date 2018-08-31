@@ -90,7 +90,7 @@ class collection_of_user_data_about_water(object):
         # показания счетчика * тариф
         self.__number_water_kube:float = 11
         self.__water_counter:float = 0
-        self.__number_of_residents:float = 1
+        self.__number_of_residents:int = 1
         self.__tarif_water:float = 16.45
 
         self.__cold_water:float = 0
@@ -99,7 +99,7 @@ class collection_of_user_data_about_water(object):
         print("Введены некорректные данные")
 
 
-
+    #number cube for man
     def __add_user_data_about_water(self):
         while(True):
             try:
@@ -107,12 +107,41 @@ class collection_of_user_data_about_water(object):
                 return float(input())
             except:
                 self.__error_add_user_data()
-                #self.__add_user_data_about_water()
                 continue
 
+    def __add_user_data_water_counter(self):
+        while(True):
+            try:
+                print("Количество кубов в прошлом месяце: ",end="")
+                last_month = float(input())
+                print("Количество кубов в текущем месяце: ",end="")
+                current_month = float(input())
+                number_kube:float = current_month-last_month
+                return number_kube
+            except:
+                self.__error_add_user_data()
+                continue
 
+    def __add_user_data_number_of_residents(self):
+        while(True):
+            try:
+                print("Введите количество людей прописанных в жилье: ",end="")
+                return int(input())
+            except:
+                self.__error_add_user_data()
+                continue
+
+    def __add_user_data_tarif_water(self):
+        while(True):
+            try:
+                print("Введите тариф на воду (по  умолчанию 135.73): ",end="")
+                data = float(input())
+                return (data if data>0 else 0/2)
+            except:
+                self.__error_add_user_data()
+                continue
     def user_add(self):
-        X =self.__add_user_data_about_water()
+        X =self.__add_user_data_tarif_water()
         print(X)
 
 a = collection_of_user_data_about_water()
