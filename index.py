@@ -1,4 +1,4 @@
-class user_data(object):
+class collection_of_user_data_about_home_services(object):
     def __init__(self):
         self.area_home:float = 41.0
         self.tarif_area_home:float = 17.0 #Тариф на содержание жилья
@@ -83,6 +83,41 @@ class user_data(object):
 
     def return_results_entered_user_data(self):
         return self.__check_input_user_data()
+
+class collection_of_user_data_about_water(object):
+    def __init__(self):
+        # количество кубов * количество человек * тариф
+        # показания счетчика * тариф
+        self.__number_water_kube:float = 11
+        self.__water_counter:float = 0
+        self.__number_of_residents:float = 1
+        self.__tarif_water:float = 16.45
+
+        self.__cold_water:float = 0
+
+    def __error_add_user_data(self):
+        print("Введены некорректные данные")
+
+
+
+    def __add_user_data_about_water(self):
+        while(True):
+            try:
+                print("Введите количество кубов на человека (по умолчанию 9,86): ", end="")
+                return float(input())
+            except:
+                self.__error_add_user_data()
+                #self.__add_user_data_about_water()
+                continue
+
+
+    def user_add(self):
+        X =self.__add_user_data_about_water()
+        print(X)
+
+a = collection_of_user_data_about_water()
+a.user_add()
+
 
 
 
