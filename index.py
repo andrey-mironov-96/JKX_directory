@@ -104,7 +104,12 @@ class collection_of_user_data_about_water(object):
         while(True):
             try:
                 print("Введите количество кубов на человека (по умолчанию 9,86): ", end="")
-                return float(input())
+                data = float(input())
+                if data>0:
+                    return data
+                else:
+                    self.__error_add_user_data()
+                    continue
             except:
                 self.__error_add_user_data()
                 continue
@@ -114,8 +119,20 @@ class collection_of_user_data_about_water(object):
             try:
                 print("Количество кубов в прошлом месяце: ",end="")
                 last_month = float(input())
+                if last_month < 0:
+                    self.__error_add_user_data()
+                    continue
+
                 print("Количество кубов в текущем месяце: ",end="")
                 current_month = float(input())
+                if current_month < 0:
+                    self.__error_add_user_data()
+                    continue
+
+                if(last_month>current_month):
+                    self.__error_add_user_data()
+                    continue
+
                 number_kube:float = current_month-last_month
                 return number_kube
             except:
@@ -126,7 +143,12 @@ class collection_of_user_data_about_water(object):
         while(True):
             try:
                 print("Введите количество людей прописанных в жилье: ",end="")
-                return int(input())
+                data = int(input())
+                if data > 0:
+                    return data
+                else:
+                    self.__error_add_user_data()
+                    continue
             except:
                 self.__error_add_user_data()
                 continue
@@ -136,16 +158,45 @@ class collection_of_user_data_about_water(object):
             try:
                 print("Введите тариф на воду (по  умолчанию 135.73): ",end="")
                 data = float(input())
-                return (data if data>0 else 0/2)
+                if data>0:
+                    return data
+                else:
+                    self.__error_add_user_data()
+                    continue
             except:
+
                 self.__error_add_user_data()
                 continue
-    def user_add(self):
-        X =self.__add_user_data_tarif_water()
-        print(X)
+
+    def __check_water(self):
+        tmp_data_about_water = self.__add_user_data_about_water()
+        tmp_data_water_counter = self.__add_user_data_water_counter()
+        tmp_data_number_of_residents = self.__add_user_data_number_of_residents()
+        tmp_data_tarif_water = self.__add_user_data_tarif_water()
+
+        if(tmp_data_about_water !=self.__number_water_kube):
+            self.__number_water_kube = tmp_data_about_water
+        if(tmp_data_water_counter != self.__water_counter):
+            self.__water_counter = tmp_data_water_counter
+        if(tmp_data_number_of_residents !=self.__number_of_residents):
+            self.__number_of_residents = tmp_data_number_of_residents
+        if(tmp_data_tarif_water != self.__tarif_water):
+            self.__tarif_water = tmp_data_tarif_water
+
+            data = []
+            data.append(self.__number_water_kube)
+            data.append(self.__water_counter)
+            data.append(self.__number_of_residents)
+            data.append(self.__tarif_water)
+        return data
+
+
+    def return_data_of_water(self):
+
+        return self.__check_water()
 
 a = collection_of_user_data_about_water()
-a.user_add()
+print(a.return_data_of_water())
 
 
 
