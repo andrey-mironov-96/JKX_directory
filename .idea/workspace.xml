@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aabbdb9-9a47-4c0e-b4ec-2cdc1ccf4006" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/General_data_user.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JKX/.gitattributes" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JKX/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/communication_with_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,10 @@
     <SUITE FILE_PATH="coverage/oop$Vector.coverage" NAME="Vector Coverage Results" MODIFIED="1535550451408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$Script1.coverage" NAME="Script1 Coverage Results" MODIFIED="1535312270172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/oop$Calculation_data_all_services.coverage" NAME="Calculation_data_all_services Coverage Results" MODIFIED="1535649873902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/oop$index.coverage" NAME="index Coverage Results" MODIFIED="1535742042113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1535741147513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$communication_with_user.coverage" NAME="communication_with_user Coverage Results" MODIFIED="1535900362337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$General_data_user.coverage" NAME="General_data_user Coverage Results" MODIFIED="1535900057328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$index.coverage" NAME="index Coverage Results" MODIFIED="1535894154668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/oop$test.coverage" NAME="test Coverage Results" MODIFIED="1535897158813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,76 +43,103 @@
     <session id="1236915898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.100" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.62" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="15" />
+          <entry key="py" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="15" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="9" />
-          <entry key="py" value="13497" />
+          <entry key="dummy" value="21" />
+          <entry key="py" value="16282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="13506" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="16291" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
+            <state relative-caret-position="251">
+              <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
               <folding>
+                <element signature="e#63#3243#0" />
                 <element signature="e#681#897#0" />
                 <element signature="e#1005#1235#0" />
                 <element signature="e#1366#1598#0" />
                 <element signature="e#1700#1905#0" />
                 <element signature="e#1954#3148#0" />
-                <element signature="e#3665#3701#0" />
-                <element signature="e#3757#4006#0" />
-                <element signature="e#4084#4514#0" />
-                <element signature="e#4316#4373#0" />
-                <element signature="e#4516#4573#0" />
-                <element signature="e#4602#4831#0" />
-                <element signature="e#4872#5108#0" />
-                <element signature="e#5983#7004#0" />
-                <marker date="1535742422003" expanded="false" signature="417:558" ph="..." />
-                <marker date="1535742422003" expanded="false" signature="3654:3701" ph="..." />
-                <marker date="1535742422003" expanded="true" signature="5974:6991" ph="..." />
-                <marker date="1535742422003" expanded="true" signature="6984:6986" ph="..." />
+                <element signature="e#3778#4186#0" />
+                <element signature="e#4241#5039#0" />
+                <element signature="e#5100#5495#0" />
+                <element signature="e#5548#5944#0" />
+                <element signature="e#7144#7151#0" />
+                <element signature="e#7227#7591#0" />
+                <element signature="e#7803#7853#0" />
+                <marker date="1535896234575" expanded="false" signature="417:558" ph="..." />
+                <marker date="1535896234575" expanded="false" signature="3654:3701" ph="..." />
+                <marker date="1535896234575" expanded="true" signature="5974:6992" ph="..." />
+                <marker date="1535896234575" expanded="false" signature="6984:6986" ph="..." />
+                <marker date="1535896234575" expanded="true" signature="7784:7845" ph="..." />
+                <marker date="1535896234575" expanded="true" signature="7886:7995" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/General_data_user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <marker date="1535900298211" expanded="true" signature="32:33" ph="..." />
+                <marker date="1535900298211" expanded="true" signature="32:34" ph="..." />
+                <marker date="1535900298211" expanded="true" signature="168:207" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/communication_with_user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <marker date="1535740556403" expanded="true" signature="15:39" ph="..." />
-                <marker date="1535740556403" expanded="true" signature="69:74" ph="..." />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Calculation_data_all_services.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -130,8 +162,12 @@
         <option value="$PROJECT_DIR$/Script1.py" />
         <option value="$PROJECT_DIR$/Vector.py" />
         <option value="$PROJECT_DIR$/Calculation_data_all_services.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/index.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/test_data.py" />
+        <option value="$PROJECT_DIR$/communication_with_user.py" />
+        <option value="$PROJECT_DIR$/General_data_user.py" />
       </list>
     </option>
   </component>
@@ -141,7 +177,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -153,7 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.index">
+  <component name="RunManager" selected="Python.communication_with_user">
     <configuration name="Calculation_data_all_services" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,7 +244,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Script1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="General_data_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +257,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Script1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/General_data_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,7 +266,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="communication_with_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -243,7 +279,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/communication_with_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,7 +323,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="D:\MyProjects\Python\oop\General_data_user.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,19 +333,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Script1" />
-      <item itemvalue="Python.Vector" />
       <item itemvalue="Python.index" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.Calculation_data_all_services" />
+      <item itemvalue="Python.communication_with_user" />
+      <item itemvalue="Python.General_data_user" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.index" />
+        <item itemvalue="Python.communication_with_user" />
+        <item itemvalue="Python.General_data_user" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.index" />
         <item itemvalue="Python.Calculation_data_all_services" />
-        <item itemvalue="Python.Vector" />
-        <item itemvalue="Python.Script1" />
       </list>
     </recent_temporary>
   </component>
@@ -330,13 +366,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29836065" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29836065" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,6 +420,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/index.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/communication_with_user.py</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -430,46 +477,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculation_data_all_services.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/test2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <marker date="1535740556403" expanded="true" signature="15:39" ph="..." />
-            <marker date="1535740556403" expanded="true" signature="69:74" ph="..." />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
+        <state relative-caret-position="251">
+          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
           <folding>
+            <element signature="e#63#3243#0" />
             <element signature="e#681#897#0" />
             <element signature="e#1005#1235#0" />
             <element signature="e#1366#1598#0" />
             <element signature="e#1700#1905#0" />
             <element signature="e#1954#3148#0" />
-            <element signature="e#3665#3701#0" />
-            <element signature="e#3757#4006#0" />
-            <element signature="e#4084#4514#0" />
-            <element signature="e#4316#4373#0" />
-            <element signature="e#4516#4573#0" />
-            <element signature="e#4602#4831#0" />
-            <element signature="e#4872#5108#0" />
-            <element signature="e#5983#7004#0" />
-            <marker date="1535742422003" expanded="false" signature="417:558" ph="..." />
-            <marker date="1535742422003" expanded="false" signature="3654:3701" ph="..." />
-            <marker date="1535742422003" expanded="true" signature="5974:6991" ph="..." />
-            <marker date="1535742422003" expanded="true" signature="6984:6986" ph="..." />
+            <element signature="e#3778#4186#0" />
+            <element signature="e#4241#5039#0" />
+            <element signature="e#5100#5495#0" />
+            <element signature="e#5548#5944#0" />
+            <element signature="e#7144#7151#0" />
+            <element signature="e#7227#7591#0" />
+            <element signature="e#7803#7853#0" />
+            <marker date="1535896234575" expanded="false" signature="417:558" ph="..." />
+            <marker date="1535896234575" expanded="false" signature="3654:3701" ph="..." />
+            <marker date="1535896234575" expanded="true" signature="5974:6992" ph="..." />
+            <marker date="1535896234575" expanded="false" signature="6984:6986" ph="..." />
+            <marker date="1535896234575" expanded="true" signature="7784:7845" ph="..." />
+            <marker date="1535896234575" expanded="true" signature="7886:7995" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculation_data_all_services.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication_with_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/General_data_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1535900298211" expanded="true" signature="32:33" ph="..." />
+            <marker date="1535900298211" expanded="true" signature="32:34" ph="..." />
+            <marker date="1535900298211" expanded="true" signature="168:207" ph="..." />
           </folding>
         </state>
       </provider>

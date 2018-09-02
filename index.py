@@ -191,12 +191,40 @@ class collection_of_user_data_about_water(object):
         return data
 
 
+
     def return_data_of_water(self):
 
         return self.__check_water()
 
-a = collection_of_user_data_about_water()
-print(a.return_data_of_water())
+
+class collection_user_data_electrocity(object):
+
+    def __error_data(self):
+        print("Некорректные данные")
+
+    def __add_user_data_electrocity_counter(self):
+        while(True):
+            try:
+                last_month:float = float(input("Введите показания счетчка за прошлый месяц: "))
+                current_month:float = float(input("Введите показания счетчка за текущий месяц: "))
+                if(last_month <0 or current_month<0 or last_month>current_month):
+                    self.__error_data()
+                    continue
+
+                return float(current_month - last_month)
+            except:
+                self.__error_data()
+                continue
+
+    def return_data_user(self):
+        return  self.__add_user_data_electrocity_counter()
+
+
+
+class collection_user_data_GAS(object):
+    def __error_data(self):
+        print("Некорректные данные")
+    def __add_user_data_gas
 
 
 
